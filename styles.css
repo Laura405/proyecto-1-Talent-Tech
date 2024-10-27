@@ -1,0 +1,52 @@
+* {
+    margin: 3px; padding: 0;
+   
+}
+
+.contenedor {
+
+    display:flex;
+}
+
+ul li{
+    margin: 25px;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+
+.top {
+    background-color:grey;
+}
+
+
+.form {
+    background-color: lavender;
+}
+
+a{
+    color: lightpink;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+
+    color:aqua;
+}
+
+h2 {
+    background-color: lavenderblush;
+    color:rgb(200, 92, 200);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    color: lightpink;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
