@@ -1,23 +1,36 @@
 * {
     margin: 3px; padding: 0;
-   
+    background-color: bisque;
+       
 }
 
 .contenedor {
 
     display:flex;
+    border: solid black 2px;
+    width: 100%;
+    height: 600px;
+    background-color: antiquewhite;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.caja {
+
+    width: 230px;
+    height: 300px;
+    background-color: pink;
+
 }
 
 ul li{
-    margin: 25px;
+
+    font-size: 15px;
+    margin: 15px;
     display: inline-block;
     padding: 15px;
 
-}
-
-
-.top {
-    background-color:grey;
 }
 
 
@@ -26,9 +39,9 @@ ul li{
 }
 
 a{
-    color: lightpink;
+    color: palevioletred;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -38,15 +51,16 @@ a:hover{
 }
 
 h2 {
-    background-color: lavenderblush;
-    color:rgb(200, 92, 200);
+    font-size: 20px;
+    color:palevioletred;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1 {
     display: inline-block;
-    color: lightpink;
+    color: palevioletred;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
