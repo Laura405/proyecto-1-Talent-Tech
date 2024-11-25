@@ -10,6 +10,7 @@
     width: 58%;
 }
 
+
 h2 {
     font-size: 30px;
     font-weight: bolder;
@@ -60,4 +61,8 @@ card-body {
     flex-wrap: wrap;
     align-items: center;
     align-content: space-between;
+}
+
+.contener ul li {
+display: inline-block;
 }
