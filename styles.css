@@ -12,6 +12,7 @@
 .navbar navbar-expand-lg navbar-light bg-light {
 
     display: inline-block;
+      
 }
 
 .contenedor {
@@ -20,7 +21,6 @@
     width: 100%;
     height: 600px;
     padding-top: 10px;
-    background-color: bisque;
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -42,26 +42,32 @@
 .carousel-item {
     justify-content: center;
     width: 65%;
+   
 }
 
 
 h2 {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bolder;
-    color: palevioletred;
+    color: rgb(196, 84, 122);
     font-family: "poppins", sans-serif;
 }
 
 h1 { 
     color: black;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "poppins", sans-serif;
 }
-.container-fluid{
 
-    justify-content: space-between;
+
+h3 { 
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "roboto", sans-serif;
 }
+
 
 .card {
     display:flex;
@@ -75,7 +81,7 @@ h1 {
     align-content: space-between;
 }
 
-card-body {
+.card-body {
 
     display:flex;
     border: solid black 2px;
@@ -92,6 +98,5 @@ card-body {
 
     display: inline-block;
     align-content: left;
-    
-    }
 
+    }
