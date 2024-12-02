@@ -1,12 +1,9 @@
 * {
-    box-sizing: border-box;
-    list-style: none;
-    box-sizing: border-box;
-    background-color: bisque;
-    font-family: "poppins", sans-serif;
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+    list-style: none;
+    background-color: bisque;    
 }  
 
 .navbar navbar-expand-lg navbar-light bg-light {
@@ -50,24 +47,23 @@ h2 {
     font-size: 18px;
     font-weight: bolder;
     color: rgb(196, 84, 122);
-    font-family: "poppins", sans-serif;
+    font-family: "Segoe UI", sans-serif;
 }
 
 h1 { 
     color: black;
     font-weight: lighter;
     font-size: 20px;
-    font-family: "poppins", sans-serif;
+    font-family: "Segoe UI", sans-serif;
 }
 
 
 h3 { 
-    color: blue;
+    color: crimson;   
     font-weight: bold;
-    font-size: 30px;
-    font-family: "roboto", sans-serif;
+    font-size: 35px;
+    font-family: "Segoe UI", sans-serif;
 }
-
 
 .card {
     display:flex;
@@ -98,5 +94,4 @@ h3 {
 
     display: inline-block;
     align-content: left;
-
-    }
+}
