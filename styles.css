@@ -6,11 +6,48 @@
     background-color: bisque;    
 }  
 
+
+
+.contener iconos {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contener iconos a {
+    font-size: 30px;
+}
+
+. facebook {
+
+    color: blue;
+}
+
+.whattsapp {
+
+    color: green;
+}
+
+.contener iconos a:hover {
+
+    transform: scale(1.2);
+}
+
 .navbar navbar-expand-lg navbar-light bg-light {
 
     display: inline-block;
       
 }
+
+   
+.carousel-item {
+    
+    justify-content: center;
+    width: 65%;
+   
+}
+
 
 .contenedor {
 
@@ -35,18 +72,12 @@
    
     }
 
-    
-.carousel-item {
-    justify-content: center;
-    width: 65%;
-   
-}
-
+ 
 
 h2 {
     font-size: 18px;
     font-weight: bolder;
-    color: crimson;
+    color: crimson ;
     font-family: "Segoe UI", sans-serif;
 }
 
@@ -59,11 +90,12 @@ h1 {
 
 
 h3 { 
-    color: crimson;   
+    color: crimson ;   
     font-weight: bold;
     font-size: 35px;
     font-family: "Segoe UI", sans-serif;
 }
+
 
 .card {
     display:flex;
@@ -88,10 +120,4 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     align-content: space-between;
-}
-
-.contener ul li {
-
-    display: inline-block;
-    align-content: left;
 }
